@@ -1,6 +1,6 @@
 /* Banner styles */
 .banner-image {
-    background-image: url('.banner-image');
+    /* background-image: url('.banner-image'); */
     margin: 50px 140px;
     filter: brightness(60%);
 }
@@ -73,6 +73,7 @@
     position: relative;
     display: flex;
     justify-content: space-around;
+
 }
 
 .party {
@@ -132,12 +133,59 @@
     cursor: pointer;
 }
 
+/* Hotel styles */
+.hotel {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 500px;
+    margin-right: 133px;
+    margin-left: 133px;
+    margin-top: 120px;
+    border-radius: 15px;
+    
+}
+.hotel-text {
+    padding-top: 60px;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.place{
+    color: red;
+}
+
+.button-hotel {
+    justify-content: center;
+    background-color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 0;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: #FFF;
+    padding: 16px 32px;
+}
+.button-hotel{
+    cursor: pointer;
+}
+.button-join{
+    text-align: center;
+}
+
 /* awesome portfolio styles */
 
 .best-gifts {
     margin-top: 100px;
     margin-left: 140px;
-    /* margin-bottom: 16px; */
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -229,7 +277,7 @@
 
 /* Subscription styles */
 
-.email-newsletter { 
+.email-newsletter {
 
     display: flex;
     align-items: center;
@@ -311,26 +359,31 @@
     padding-bottom: 40px;
     margin-left: 140px;
     margin-right: 180px;
-    color:white
+    color: white
 }
-.web{
+
+.web {
     text-decoration: none;
     color: white;
 }
+
 .social-media {
     text-align: center;
-    
+
 }
-.social-image{
+
+.social-image {
     padding-right: 10px;
 }
+
 .footer-foot {
     display: flex;
     justify-content: space-between;
     margin-left: 140px;
     margin-right: 10px;
-    color:white
+    color: white
 }
+
 .footer-button {
     color: #FFF;
     font-family: Inter;
@@ -341,12 +394,15 @@
     border: 0;
     margin-right: 140px;
 }
-.footer-button{
+
+.footer-button {
     cursor: pointer;
 }
-hr{
-    background:rgba(255, 255, 255, 0.15);;
+
+hr {
+    background: rgba(255, 255, 255, 0.15);
+    ;
     margin-left: 140px;
-    margin-right: 140px; 
-    height: 1px;            
+    margin-right: 140px;
+    height: 1px;
 }
