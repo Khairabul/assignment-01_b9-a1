@@ -4,12 +4,14 @@
     margin: 50px 140px;
     filter: brightness(60%);
 }
+
 .header-text {
     position: absolute;
     top: 30%;
     left: 40%;
     text-align: center;
 }
+
 .text01 {
     color: rgba(255, 255, 255, 1);
     text-align: center;
@@ -18,6 +20,7 @@
     font-style: normal;
     font-weight: 400;
 }
+
 .text02 {
     color: rgba(255, 255, 255, 1);
     text-align: center;
@@ -34,6 +37,7 @@
     text-align: center;
     margin-left: 300px;
 }
+
 .offer {
     color: #F00;
     text-align: center;
@@ -42,6 +46,7 @@
     font-style: normal;
     font-weight: 700;
 }
+
 .deals {
     color: #F00;
     text-align: center;
@@ -51,6 +56,7 @@
     font-weight: 500;
     margin-top: 48px;
 }
+
 .categories {
     color: #070211;
     text-align: center;
@@ -68,17 +74,20 @@
     display: flex;
     justify-content: space-around;
 }
+
 .party {
     display: flex;
     position: absolute;
     top: 200px;
     left: 300px;
 }
+
 .party-image {
     margin-top: 120px;
     margin-left: 400px;
     margin-right: 140px;
 }
+
 .party-text {
     /* position: absolute; */
     bottom: 20px;
@@ -86,6 +95,7 @@
     top: 180px;
     color: white;
 }
+
 .welcome {
     color: #FFF;
     font-family: Merriweather;
@@ -96,6 +106,7 @@
     margin-bottom: 24px;
     left: 126px;
 }
+
 .party-description {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
@@ -104,6 +115,7 @@
     font-weight: 400;
 
 }
+
 .join-now {
     text-decoration: none;
     color: #FFF;
@@ -115,9 +127,11 @@
     text-transform: uppercase;
     left: 1000px;
 }
-.join-now:hover{
+
+.join-now:hover {
     cursor: pointer;
 }
+
 /* awesome portfolio styles */
 
 .best-gifts {
@@ -130,6 +144,7 @@
     font-style: normal;
     font-weight: 500;
 }
+
 .Portfolio {
     margin-left: 140px;
     margin-bottom: 22px;
@@ -141,6 +156,7 @@
     font-weight: 900;
     text-transform: capitalize;
 }
+
 .gift-description {
     margin-left: 140px;
     color: rgba(7, 2, 17, 0.60);
@@ -150,17 +166,20 @@
     font-weight: 400;
     line-height: 32px;
 }
+
 .image-container-01 {
     display: flex;
     margin-left: 140px;
     margin-right: 140px;
     margin-top: 48px;
 }
+
 .image-container-02 {
     display: flex;
     margin-left: 140px;
-    margin-right: 140px;   
+    margin-right: 140px;
 }
+
 .gift-image-01,
 .gift-image-02,
 .gift-image-03,
@@ -169,44 +188,47 @@
 .gift-image-06 {
     width: 30% 30%;
     margin-right: 24px;
-    margin-bottom: 24px;    
+    margin-bottom: 24px;
 }
-.gift-image-01:hover{
+
+.gift-image-01:hover {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5%;
 }
-.gift-image-02:hover{
+
+.gift-image-02:hover {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5%;
 }
-.gift-image-03:hover{
+
+.gift-image-03:hover {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5%;
 }
-.gift-image-04:hover{
+
+.gift-image-04:hover {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5%;
 }
-.gift-image-05:hover{
+
+.gift-image-05:hover {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5%;
 }
-.gift-image-06:hover{
+
+.gift-image-06:hover {
     cursor: pointer;
     border: 1px solid black;
     border-radius: 5%;
-} 
+}
 
 /* Subscription styles */
-.Newsletter-body {
-    align-items: center;
-    justify-content: center;
-}
+
 .email-newsletter {
     display: flex;
     align-items: center;
@@ -214,21 +236,24 @@
     padding: 130px;
     margin-top: 130px;
     margin-left: 130px;
-    margin-right: -130px;
+    margin-right: 130px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
+
 .Newsletter-box-button {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     border: 0;
     color: #FFF;
     width: 210px;
-    height: 72px;    
+    height: 72px;
 }
-.Newsletter-box-button:hover{
+
+.Newsletter-box-button:hover {
     cursor: pointer;
 }
+
 .Newsletter-box input {
     color: #FFF;
     width: 410px;
@@ -254,6 +279,7 @@
     line-height: normal;
     text-transform: capitalize;
 }
+
 .Newsletter-body p {
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
@@ -261,8 +287,63 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;    
+    line-height: 32px;
 }
+
 .email-img {
     margin-left: 330px;
+}
+
+/* footer styles */
+
+.footer-container {
+    background: #070211;
+    margin-top: 120px;
+    width: 1600px;
+    height: 400px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    margin-left: 140px;
+    margin-right: 180px;
+    color:white
+}
+.web{
+    text-decoration: none;
+    color: white;
+}
+.social-media {
+    text-align: center;
+    
+}
+.social-image{
+    padding-right: 10px;
+}
+.footer-foot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 140px;
+    margin-right: 10px;
+    color:white
+}
+.footer-button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    background: none;
+    border: 0;
+    margin-right: 140px;
+}
+hr{
+    background:rgba(255, 255, 255, 0.15);;
+    margin-left: 140px;
+    margin-right: 140px; 
+    height: 1px;    
+        
 }
