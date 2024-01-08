@@ -1,6 +1,6 @@
 /* Banner styles */
 .banner-image {
-    /* background-image: url('.banner-image'); */
+    background-image: url('.banner-image');
     margin: 50px 140px;
     filter: brightness(60%);
 }
