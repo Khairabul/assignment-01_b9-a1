@@ -229,14 +229,15 @@
 
 /* Subscription styles */
 
-.email-newsletter {
+.email-newsletter { 
+
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 130px;
     margin-top: 130px;
     margin-left: 130px;
-    margin-right: 130px;
+    margin-right: -130px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
 }
@@ -339,6 +340,9 @@
     background: none;
     border: 0;
     margin-right: 140px;
+}
+.footer-button{
+    cursor: pointer;
 }
 hr{
     background:rgba(255, 255, 255, 0.15);;
